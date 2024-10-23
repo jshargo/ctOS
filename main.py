@@ -3,7 +3,6 @@ import numpy as np
 from ultralytics import YOLO
 
 device = "cpu"
- 
 cap = cv2.VideoCapture("fields.mp4")
 
 model = YOLO("yolov8m.pt")
